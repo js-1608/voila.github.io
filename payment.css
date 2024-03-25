@@ -1,0 +1,164 @@
+body {
+    background-color: F7F7F7;
+    font-family: Arial, sans-serif;   
+}
+
+.voilastudio {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.voilastudio h2{
+    font-family: Inter;
+    font-weight: 400;
+  
+font-size: 18px;
+
+
+    
+}
+
+#usernamePlaceholder{
+    font-family: Inter;
+font-size: 22px;
+font-weight: 700;
+line-height: 21.78px;
+
+}
+.voilastudio h3{
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 21.78px;
+    letter-spacing: 0.1em;
+    
+}
+
+#stagePlaceholder{
+    font-family: Inter;
+font-size: 18px;
+font-weight: 600;
+letter-spacing: 0.1em;
+text-align: left;
+
+}
+
+
+
+.voilastudio a {
+    margin: 10px 0;
+    display: block;
+}
+
+
+
+.voilastudio p:last-child {
+    margin-bottom: 0;
+}
+
+.logo {
+    text-decoration: none;
+  }
+  .voilastudio .logo {
+    text-decoration: none;
+}
+
+.partypopper{
+    width: 116px;
+height: 116px;
+
+}
+
+p{
+    font-family: Inter;
+font-size: 16px;
+font-weight: 300;
+line-height: 19.36px;
+}
+
+.voilaName{
+    color: rgb(230, 22, 184);
+    font-size: 20px;
+    font-weight: 600;
+}
+.voilaCopyright{
+    font-size: 20px;
+    font-weight:400;
+    top: 0;
+}
+
+.VoilaFooter{
+    background-color:#f7f7f7;padding: 3%;margin-top: 3%;bottom: 100;
+}
+
+.VoilaFooter {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #f7f7f7;
+    padding: 10px;
+    text-align: center;
+}
+
+.VoilaFooter .logo {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.VoilaFooter .voilaCopyright,
+.VoilaFooter .voilaName {
+    padding: 0% 3%;
+
+}
+
+ /* Flexbox container to center content vertically */
+ .centeredSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; /* Ensure the section covers the full viewport height */
+}
+
+.helpSection{
+    margin-top: 5%;
+}
+
+
+.circularDiv {
+    position: fixed;
+    top: -50px; 
+    right: -50px; 
+    /* background-color: #ff0000; */
+    border-radius: 50%;
+    width: 135px;
+    height: 135px; 
+    overflow: hidden; 
+    background: linear-gradient(135.2deg, #FF0000 -36.02%, #7000FF 145.95%);
+
+}
+
+.circularDiv2 {
+    position: fixed;
+    left: -20px; 
+    border-radius: 50%;
+    width: 41px;
+    height: 42px; 
+    overflow: hidden; 
+    background: linear-gradient(135.2deg, #FF0000 -36.02%, #7000FF 145.95%);
+
+}
+.circularDiv3 {
+    position: fixed;
+    right: -20px; 
+    border-radius: 50%;
+    width: 50px;
+    height: 50px; 
+    overflow: hidden; 
+    background: linear-gradient(135.2deg, #FF0000 -36.02%, #7000FF 145.95%);
+
+}
+
